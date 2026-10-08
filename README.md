@@ -52,7 +52,7 @@ cd salon-booking-cli
 createdb salon
 
 3️⃣ Restore database 
-psql -d salon -f salon.sql
+psql -d salon -f salon_backup.sql
 
 4️⃣ Run the script
 ./salon.sh
